@@ -1,0 +1,78 @@
+2025-06-19 17:40:35,087 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:42:17,120 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:43:01,050 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:43:16,426 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:43:31,563 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:43:31,574 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:43:31,574 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:43:40,408 - INFO - common.config.logger - Root endpoint called
+2025-06-19 17:43:53,371 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:43:53,372 - INFO - common.config.logger - Attempting to create user: string
+2025-06-19 17:43:53,376 - DEBUG - common.config.logger - A new user just attempted to register to the system, username: string
+2025-06-19 17:43:53,596 - INFO - common.config.logger - New user 'string' successfully registered to the system.
+2025-06-19 17:43:53,596 - INFO - common.config.logger - User 'string' created successfully.
+2025-06-19 17:43:53,597 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:44:40,781 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:44:40,781 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:44:40,990 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:44:45,442 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:44:45,443 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:44:45,650 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:45:31,614 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:45:31,614 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:45:31,811 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:47:45,933 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:47:45,934 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:47:46,141 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:49:50,289 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:49:50,299 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:49:50,300 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:49:51,465 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:49:51,476 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:49:51,476 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:49:57,995 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:49:58,007 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:49:58,007 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:50:48,106 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:50:48,107 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:50:48,312 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:52:02,670 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:52:02,682 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:52:02,682 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:52:06,529 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:52:06,544 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:52:06,544 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:52:40,975 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:52:40,986 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:52:40,986 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:53:04,861 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:53:04,872 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:53:04,872 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:53:19,190 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:53:19,204 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:53:19,204 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:53:29,431 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:53:29,443 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:53:29,443 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:53:29,862 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:53:29,874 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:53:29,874 - INFO - common.config.logger - App startup complete , tables are made in DB
+2025-06-19 17:53:42,605 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:53:42,605 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:53:42,814 - DEBUG - common.config.logger - Access token created for sub: string, expires at: 2025-06-19 13:23:42.811276+00:00
+2025-06-19 17:53:42,814 - INFO - common.config.logger - User 'string' logged in successfully.
+2025-06-19 17:53:42,815 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:57:03,081 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:57:03,082 - INFO - common.config.logger - Login request for USer with username: string
+2025-06-19 17:57:03,283 - DEBUG - common.config.logger - Access token created for sub: string, expires at: 2025-06-19 13:27:03.283188+00:00
+2025-06-19 17:57:03,283 - INFO - common.config.logger - User 'string' logged in successfully.
+2025-06-19 17:57:03,284 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:57:36,197 - DEBUG - common.config.logger - Database session opened
+2025-06-19 17:57:36,197 - DEBUG - common.config.logger - Current user verifying themselves via access token aka badge
+2025-06-19 17:57:36,198 - DEBUG - common.config.logger - Token verified, payload: string
+2025-06-19 17:57:36,199 - INFO - common.config.logger - User 'string' successfully authenticated.Welcome to the club man ! lezz go
+2025-06-19 17:57:36,199 - INFO - common.config.logger - Accessed /me for user: string
+2025-06-19 17:57:36,200 - DEBUG - common.config.logger - Database session closed
+2025-06-19 17:58:16,976 - INFO - common.config.logger - App startup : initializing DB tables
+2025-06-19 17:58:16,988 - INFO - common.config.logger - DB tables created successfully
+2025-06-19 17:58:16,988 - INFO - common.config.logger - App startup complete , tables are made in DB

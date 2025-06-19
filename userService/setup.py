@@ -12,6 +12,8 @@ setup(
         "python-dotenv==1.0.1",             # Load environment variables
         "pydantic-settings==2.3.4",         # Strong schema management
         "passlib[bcrypt]==1.7.4",           # Password hashing
+        "bcrypt==4.1.2",
+        "python-jose[cryptography]==3.3.0",
     ],
     include_package_data=True,
     zip_safe=False,
