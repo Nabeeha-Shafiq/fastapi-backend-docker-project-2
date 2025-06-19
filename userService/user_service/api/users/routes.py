@@ -42,18 +42,17 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
 
 @router.post("/", response_model=user_schema.UserResponse, status_code=status.HTTP_201_CREATED)
 async def create_new_user(user: user_schema.UserCreate, db: Session = Depends(get_db)):
-    logger.info(f"Attempting to create user: {user.userName}")
+    logger.info(f"Hey look a new user just signed up: {user.userName}")
     db_user = crud_user.get_user_by_username(db, username=user.userName)
     if db_user:
-        logger.warning(f"User creation failed: Username '{user.userName}' already registered.")
+        logger.warning(f"sed , new user creation failed: Username '{user.userName}' already registered.")
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username already registered")
 
     new_user = crud_user.create_user(db=db, user=user)
-    logger.info(f"User '{new_user.userName}' created successfully.")
+    logger.info(f"wohoooo new user '{new_user.userName}' created successfully and on board")
     return new_user
 
-# A protected route example using our bouncer
 @router.get("/me", response_model=user_schema.UserResponse)
 async def read_current_user(current_user: user_model.User = Depends(get_current_user)):
-    logger.info(f"Accessed /me for user: {current_user.userName}")
+    logger.info(f"user wants to auto login /me for user: {current_user.userName}")
     return current_user

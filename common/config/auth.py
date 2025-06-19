@@ -1,9 +1,7 @@
 from jose import JWTError, jwt
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-# Import settings from common, as it's a shared configuration
 from common.config.settings import settings
-# Import logger from common, as it's a shared utility
 from common.config.logger import logger
 
 ALGORITHM = "HS256"
