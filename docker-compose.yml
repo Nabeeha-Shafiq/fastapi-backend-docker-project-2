@@ -1,0 +1,38 @@
+#dockerCompose.yml is used to define and run multi-container docker applications
+#instead of running docker run multiple times for each service, you define them all in one file and use a single command (docker-compose up).
+#listing all services that make up our app
+services:
+#build tells Docker Compose to build the image for this service
+# using the dockerfile 
+#fastapi service will be run by the CMD in the dockerFIle
+  user-service:
+    build: 
+      context: . #build image from the Dockerfile in the current directory
+      dockerfile: ./userService/Dockerfile
+    container_name: "fast_api_web_service"
+    ports:
+      - "8000:8000" #host port:container port
+    env_file:
+      - .env #pretty self explanatory ie environemnt variable 
+    depends_on:
+      - db # depends on makes sure that your db starts before your web service for like good loading and all
+    volumes: # acts like git ,changes are reflected , can remove after deployment 
+     - ./userService:/app      
+
+  # PostgreSQL db service
+  db:
+    image: postgres:16-alpine #this will be pulled from dockerhub or smth , the alpine version is like lighter in weight
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      #docker manages this volume.data persists even if containers are removed.
+      #just for better security and all 
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+    - "5432:5432"
+
+volumes:
+  postgres_data:
