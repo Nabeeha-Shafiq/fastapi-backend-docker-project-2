@@ -3,6 +3,7 @@ from common.config.logger import logger
 #instead of using print statements using a logger , reason idk cz they do it this way dont know why 
 from common.config.settings import settings
 from common.config.database import create_db_tables
+from user_service.api.users.routes import router as user_router
 app = FastAPI(
     title="User Media App coded via FastAPI and Docker containerized and all",
     description="Features include user management + i,ahe upload capability , a bit of AI",
@@ -20,6 +21,7 @@ async def startup_event():
     create_db_tables()
     logger.info("App startup complete , tables are made in DB")
 
+app.include_router(user_router)
 @app.get("/")
 async def root():
     """
